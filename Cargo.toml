@@ -1,0 +1,16 @@
+[package]
+name = "sasquatch"
+version = "0.1.0"
+authors = ["Marcus Ruddick <ruddickmg@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[workspace]
+members = []
+
+[dependencies]
+cargo-deny = "0.4.0"
+ggez = "0.5.1"
+specs = "0.15.1"
+nphysics2d = "0.13.0"
+rand = "0.7.2"
